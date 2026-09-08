@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "ICD Diagnosis Code Dictionary",
+    "source": "ESPRESSO Study",
+    "version": "2015",
+    "last_updated": "2024-09-08",
+    "description": "Mapping of diagnoses across ICD coding systems (ICD-10, ICD-9, ICD-8, ICD-7)",
+    "sample": "10% sample of full code list"
+  },
+  "codes": [
+    {
+      "id": 1,
+      "diagnosis": "Inflammatory Bowel Disease",
+      "abbreviation": "IBD",
+      "icd_10": "K50* ; K51* ; K52.3",
+      "icd_9": "555* ; 556",
+      "icd_8": "563,00 ; 563,10 ; 563,99 ; 569,02",
+      "icd_7": "572,00 ; 572,09 ; 572,20 ; 572,21",
+      "classification": "Montreal/Paris-klassifikation",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "diagnosis": "Crohn's Disease",
+      "abbreviation": "CD",
+      "icd_10": "K50*",
+      "icd_9": "555*",
+      "icd_8": "563,00",
+      "icd_7": "572,00 ; 572,09",
+      "classification": "LX",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "diagnosis": "Crohn's disease in small intestine (incl. terminal ileum)",
+      "abbreviation": "CD",
+      "icd_10": "K50.0",
+      "icd_9": "555A",
+      "icd_8": "",
+      "icd_7": "572,00",
+      "classification": "L1",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "diagnosis": "Crohn's disease [regional enteritis] in colon",
+      "abbreviation": "CD",
+      "icd_10": "K50.1",
+      "icd_9": "555B",
+      "icd_8": "",
+      "icd_7": "",
+      "classification": "L2",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "diagnosis": "Other Crohn's disease (incl. ileocecal Crohn)",
+      "abbreviation": "CD",
+      "icd_10": "K50.8",
+      "icd_9": "555C",
+      "icd_8": "",
+      "icd_7": "",
+      "classification": "LX",
+      "notes": "Isolated ileocecal Crohn=L1, more extensive involvement in small intestine and colon=L3, but 'other' can also be L4"
+    },
+    {
+      "id": 6,
+      "diagnosis": "Crohn's disease, unspecified",
+      "abbreviation": "CD",
+      "icd_10": "K50.9",
+      "icd_9": "555X",
+      "icd_8": "",
+      "icd_7": "572,09",
+      "classification": "LX",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "diagnosis": "Ulcerative Colitis",
+      "abbreviation": "UC",
+      "icd_10": "K51*",
+      "icd_9": "556",
+      "icd_8": "563,10 ; 563,99 ; 569,02",
+      "icd_7": "572,20 ; 572,21",
+      "classification": "EX",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "diagnosis": "Total ulcerative (chronic) colitis",
+      "abbreviation": "UC",
+      "icd_10": "K51.0",
+      "icd_9": "0",
+      "icd_8": "",
+      "icd_7": "",
+      "classification": "E3",
+      "notes": "K51.0 corresponds to both E3 and E4 in Paris classification"
+    },
+    {
+      "id": 9,
+      "diagnosis": "Ulcerative (chronic) proctitis",
+      "abbreviation": "UC",
+      "icd_10": "K51.2",
+      "icd_9": "0",
+      "icd_8": "569,02",
+      "icd_7": "",
+      "classification": "E1",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "diagnosis": "Indeterminate colitis",
+      "abbreviation": "IBD-U",
+      "icd_10": "K52.3",
+      "icd_9": "0",
+      "icd_8": "",
+      "icd_7": "",
+      "classification": "Unclassifiable colitis",
+      "notes": ""
+    }
+  ]
+}

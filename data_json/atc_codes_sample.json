@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "title": "ATC (Anatomical Therapeutic Chemical) Code Dictionary",
+    "source": "ESPRESSO Study",
+    "version": "2015",
+    "last_updated": "2024-09-08",
+    "description": "IBD medications mapped to ATC classification with dosing information",
+    "sample": "10% sample of full code list"
+  },
+  "codes": [
+    {
+      "id": 1,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "Aminosalicylates",
+      "drug_name": "Sulfasalazine",
+      "atc": "A07EC01",
+      "trade_names": "Salazopyrin",
+      "pediatric_flare_dose": "50-70 mg/kg/d, max 3-4 g/d",
+      "pediatric_maintenance_dose": "40-50 mg/kg/d, max 3 g/d"
+    },
+    {
+      "id": 2,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "5-ASA",
+      "drug_name": "Mesalazine",
+      "atc": "A07EC02",
+      "trade_names": "Asacol, Mesasal, Mezavant, Pentasa, Salofalk",
+      "pediatric_flare_dose": "",
+      "pediatric_maintenance_dose": ""
+    },
+    {
+      "id": 3,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "Aminosalicylates",
+      "drug_name": "Olsalazine",
+      "atc": "A07EC03",
+      "trade_names": "Dipentum",
+      "pediatric_flare_dose": "60-80 mg/kg/d, max 4.8 g/d",
+      "pediatric_maintenance_dose": "50-70 mg/kg/d, max 3 g/d. Dose should not be below 40 mg/kg or 2.4 g/d"
+    },
+    {
+      "id": 4,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "Aminosalicylates",
+      "drug_name": "Balsalazide",
+      "atc": "A07EC04",
+      "trade_names": "Colazid",
+      "pediatric_flare_dose": "",
+      "pediatric_maintenance_dose": ""
+    },
+    {
+      "id": 5,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "Corticosteroids acting locally",
+      "drug_name": "Hydrocortisone",
+      "atc": "A07EA02",
+      "trade_names": "Colifoam",
+      "pediatric_flare_dose": "Lowest possible dose",
+      "pediatric_maintenance_dose": "Lowest possible dose"
+    },
+    {
+      "id": 6,
+      "drug_group": "IBD-läkemedel",
+      "drug_family": "Corticosteroids acting locally",
+      "drug_name": "Budesonide",
+      "atc": "A07EA06",
+      "trade_names": "Budenofalk, Entocort",
+      "pediatric_flare_dose": "Lowest possible dose",
+      "pediatric_maintenance_dose": "Lowest possible dose"
+    }
+  ]
+}
