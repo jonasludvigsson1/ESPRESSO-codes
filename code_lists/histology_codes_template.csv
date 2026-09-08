@@ -1,0 +1,13 @@
+code,abbreviation,grade_name,description,applicable_to,severity_level,notes
+"H_NORM","NORM","Normal","No inflammation; normal mucosa architecture","IBD; Celiac","0","Baseline normal histology"
+"H_ED_1","ED1","Increased intraepithelial lymphocytes","IELs increased (>20/100 epithelial cells)","Celiac; IBD","Mild","First sign of celiac disease"
+"H_VILL_ATYP","VA","Villus atrophy, partial","Villus-to-crypt ratio between 1:1 and 3:1; villus height reduced","Celiac","Mild-Moderate","Marsh grade 1-2"
+"H_VILL_SUB","VS","Villus atrophy, subtotal","Villus-to-crypt ratio <1:1; severe villus shortening","Celiac","Moderate","Marsh grade 3"
+"H_VILL_TOT","VT","Villus atrophy, total","Complete villus blunting; flat mucosa","Celiac","Severe","Marsh grade 3C (worst)"
+"H_CRYPT_HYPER","CH","Crypt hyperplasia","Crypt elongation; increased depth","Celiac; IBD","Mild-Moderate","Often accompanies villus atrophy in celiac"
+"H_LAMINA_INFLAM","LI","Lamina propria inflammation","Increased mononuclear cells; plasma cells; lymphocytes in lamina propria","IBD; Celiac","Mild-Severe","Graded on intensity and cell types"
+"H_NEUTROPHIL","NEU","Neutrophilic infiltration","Neutrophils in epithelium and crypts","IBD","Mild-Moderate","Characteristic of active IBD"
+"H_ULCER","ULC","Ulceration","Loss of mucosa; surface epithelial defect","IBD","Moderate-Severe","Sign of active disease"
+"H_FISSURING","FIS","Fissuring ulcers","Deep ulcers extending into submucosa","IBD; Crohn's","Severe","Characteristic of Crohn disease"
+"H_GRANULOMA","GRAN","Granulomas","Non-caseating granulomas in submucosa/lamina propria","Crohn's Disease","Diagnostic","Found in ~50% of Crohn cases; rare in UC"
+"H_COBBLEST","COB","Cobblestone mucosa","Mucosal irregularities; islands of mucosa separated by ulceration","Crohn's Disease","Moderate-Severe","Macroscopic appearance; reflects active disease"

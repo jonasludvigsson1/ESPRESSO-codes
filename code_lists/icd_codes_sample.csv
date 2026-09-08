@@ -1,0 +1,11 @@
+diagnosis,abbreviation,icd_10,icd_9,icd_8,icd_7,classification,notes
+"Inflammatory Bowel Disease","IBD","K50* ; K51* ; K52.3","555* ; 556","563,00 ; 563,10 ; 563,99 ; 569,02","572,00 ; 572,09 ; 572,20 ; 572,21","Montreal/Paris-klassifikation",""
+"Crohn's Disease","CD","K50*","555*","563,00","572,00 ; 572,09","LX",""
+"Crohn's disease in small intestine (incl. terminal ileum)","CD","K50.0","555A","","572,00","L1",""
+"Crohn's disease [regional enteritis] in colon","CD","K50.1","555B","","","L2",""
+"Other Crohn's disease (incl. ileocecal Crohn)","CD","K50.8","555C","","","LX","Isolated ileocecal Crohn=L1; more extensive=L3"
+"Crohn's disease, unspecified","CD","K50.9","555X","","572,09","LX",""
+"Ulcerative Colitis","UC","K51*","556","563,10 ; 563,99 ; 569,02","572,20 ; 572,21","EX",""
+"Total ulcerative (chronic) colitis","UC","K51.0","0","","","E3","K51.0 corresponds to both E3 and E4 in Paris"
+"Ulcerative (chronic) proctitis","UC","K51.2","0","569,02","","E1",""
+"Indeterminate colitis","IBD-U","K52.3","0","","","Unclassifiable colitis",""
