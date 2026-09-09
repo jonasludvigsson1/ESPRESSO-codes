@@ -1,0 +1,9 @@
+drug_group,drug_family,drug_name,atc,trade_names,pediatric_flare_dose,pediatric_maintenance_dose
+IBD-läkemedel,Aminosalicylates,Sulfasalazine,A07EC01,Salazopyrin,50-70 mg/kg/d; max 3-4 g/d,40-50 mg/kg/d; max 3 g/d
+IBD-läkemedel,5-ASA,Mesalazine,A07EC02,Asacol; Mesasal; Mezavant; Pentasa; Salofalk,,
+IBD-läkemedel,Aminosalicylates,Olsalazine,A07EC03,Dipentum,60-80 mg/kg/d; max 4.8 g/d,50-70 mg/kg/d; max 3 g. Dose should not be below 40 mg/kg or 2.4 g/d
+IBD-läkemedel,Aminosalicylates,Balsalazide,A07EC04,Colazid,,
+IBD-läkemedel,Corticosteroids acting locally,Hydrocortisone,A07EA02,Colifoam,Lowest possible dose,Lowest possible dose
+IBD-läkemedel,Corticosteroids acting locally,Budesonide,A07EA06,Budenofalk; Entocort,Lowest possible dose,Lowest possible dose
+test,123,abc,123,abc,abc,abc
+test,123,abc,123,abc,abc,abc
