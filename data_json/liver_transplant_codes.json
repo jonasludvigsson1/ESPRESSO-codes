@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Liver transplantation definition in ESPRESSO",
+    "source": "ESPRESSO Study; liver_transplant_definition_261118.docx",
+    "version": "2026-11-18",
+    "last_updated": "2026-11-18",
+    "description": "Codes identifying liver transplantation (component 4 of MALO).",
+    "used_in": [
+      "MALO (component 4)"
+    ],
+    "columns": {
+      "component": "Event component or code group",
+      "subcomponent": "Sub-group within the component (may be empty)",
+      "role": "outcome | not_included",
+      "variant": "main | optional",
+      "register": "Register in which the code is searched",
+      "icd_version": "7, 8, 9, 10 | procedure | reference (points to another code list)",
+      "code_or_range": "Code as written for that ICD version (ICD-7/8 use a decimal comma; ICD-9/10 use dots in the international format)",
+      "label": "Short description of the code, where the source gave one",
+      "note_ids": "Semicolon-separated ids of entries in \"notes\" (type \"source\" = comment in the source document; \"curator\" = added during curation)"
+    }
+  },
+  "codes": [
+    {
+      "id": 1,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Status/complication code",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "9",
+      "code_or_range": "V42H",
+      "label": "liver transplant status",
+      "note_ids": "T1;T3"
+    },
+    {
+      "id": 2,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Status/complication code",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "10",
+      "code_or_range": "Z94.4",
+      "label": "liver transplant status",
+      "note_ids": "T1;T3"
+    },
+    {
+      "id": 3,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Status/complication code",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "10",
+      "code_or_range": "T86.4",
+      "label": "liver transplant failure and rejection",
+      "note_ids": "T1;T3"
+    },
+    {
+      "id": 4,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Procedure",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "procedure",
+      "code_or_range": "5200",
+      "label": "",
+      "note_ids": "T2"
+    },
+    {
+      "id": 5,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Procedure",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "procedure",
+      "code_or_range": "JJC",
+      "label": "",
+      "note_ids": "T2"
+    },
+    {
+      "id": 6,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Procedure",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "procedure",
+      "code_or_range": "DJ005",
+      "label": "",
+      "note_ids": "T2"
+    },
+    {
+      "id": 7,
+      "definition": "LIVER_TRANSPLANT",
+      "version": "2026-11-18",
+      "component": "Liver transplantation",
+      "subcomponent": "Procedure",
+      "role": "outcome",
+      "variant": "main",
+      "register": "Patient Register",
+      "icd_version": "procedure",
+      "code_or_range": "DJ006",
+      "label": "",
+      "note_ids": "T2"
+    }
+  ],
+  "notes": [
+    {
+      "note_id": "T0",
+      "type": "source",
+      "text": "Definition agreed in discussion with Juan Vaz and Fahim Ebrahimi, 2026-11-18."
+    },
+    {
+      "note_id": "T1",
+      "type": "source",
+      "text": "There is no ICD-7 or ICD-8 code for liver transplantation."
+    },
+    {
+      "note_id": "T2",
+      "type": "curator",
+      "text": "The classification system of the procedure codes 5200, JJC, DJ005 and DJ006 is not stated in the source document; confirm it (for example Swedish operation/KVÅ codes) before use."
+    },
+    {
+      "note_id": "T3",
+      "type": "curator",
+      "text": "ICD-9 V42H and ICD-10 Z94.4 describe transplant status and T86.4 describes transplant failure and rejection, so these can be recorded after the transplantation date. The procedure codes are the more reliable marker of the date."
+    }
+  ]
+}

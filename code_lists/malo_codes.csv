@@ -1,0 +1,39 @@
+id,definition,version,component,subcomponent,role,variant,register,icd_version,code_or_range,label,note_ids
+1,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,7,581,,M11
+2,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,8,"571,00",,M8;M11
+3,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,8,"571,9",,M8;M11
+4,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,9,571C,,M11
+5,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,9,571F,,M11
+6,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,10,K70.3,,M9;M11
+7,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,10,K71.7,,M9;M11
+8,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,10,K74,,M9;M11
+9,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,10,K74.5,,M9;M11
+10,MALO,2026-11-18,Compensated cirrhosis,Cirrhosis,outcome,main,Patient Register,10,K74.6,,M9;M11
+11,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,7,"462,10",,M2;M11
+12,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,8,"456,00",,M2;M11
+13,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,9,456B,,M11
+14,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,10,I85.9,,M11
+15,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,10,I98.2,,M11
+16,MALO,2026-11-18,Compensated cirrhosis,Non-bleeding varices,outcome,main,Patient Register,10,I86.4,gastric varices,M11
+17,MALO,2026-11-18,Compensated cirrhosis,Portal hypertension,outcome,main,Patient Register,8,"571,9",,M3;M8;M11
+18,MALO,2026-11-18,Compensated cirrhosis,Portal hypertension,outcome,main,Patient Register,9,572D,,M3;M11
+19,MALO,2026-11-18,Compensated cirrhosis,Portal hypertension,outcome,main,Patient Register,10,K76.6,,M3;M11
+20,MALO,2026-11-18,Decompensated cirrhosis,Variceal bleeding,outcome,main,Patient Register,9,456A,,M2;M11
+21,MALO,2026-11-18,Decompensated cirrhosis,Variceal bleeding,outcome,main,Patient Register,10,I85.0,,M11
+22,MALO,2026-11-18,Decompensated cirrhosis,Variceal bleeding,outcome,main,Patient Register,10,I98.3,,M11
+23,MALO,2026-11-18,Decompensated cirrhosis,Ascites,outcome,main,Patient Register,7,"785,39",,M11
+24,MALO,2026-11-18,Decompensated cirrhosis,Ascites,outcome,main,Patient Register,8,"785,30",,M7;M11
+25,MALO,2026-11-18,Decompensated cirrhosis,Ascites,outcome,main,Patient Register,9,789F,,M11
+26,MALO,2026-11-18,Decompensated cirrhosis,Ascites,outcome,main,Patient Register,10,R18,,M11
+27,MALO,2026-11-18,Decompensated cirrhosis,Hepatic encephalopathy,outcome,main,Patient Register,8,"573,02",,M11
+28,MALO,2026-11-18,Decompensated cirrhosis,Hepatic encephalopathy,outcome,main,Patient Register,9,572C,,M11
+29,MALO,2026-11-18,Decompensated cirrhosis,Hepatic encephalopathy,outcome,main,Patient Register,10,K72.1,,M10;M11
+30,MALO,2026-11-18,Decompensated cirrhosis,Hepatic encephalopathy,outcome,main,Patient Register,10,K72.9,,M10;M11
+31,MALO,2026-11-18,Decompensated cirrhosis,Hepatorenal syndrome,outcome,main,Patient Register,9,572E,,M4;M11
+32,MALO,2026-11-18,Decompensated cirrhosis,Hepatorenal syndrome,outcome,main,Patient Register,10,K76.7,,M4;M11
+33,MALO,2026-11-18,Hepatocellular carcinoma,HCC,outcome,main,Patient Register,7,"155,0",,M11
+34,MALO,2026-11-18,Hepatocellular carcinoma,HCC,outcome,main,Patient Register,8,"155,0",,M11
+35,MALO,2026-11-18,Hepatocellular carcinoma,HCC,outcome,main,Patient Register,9,155A,,M11;M12
+36,MALO,2026-11-18,Hepatocellular carcinoma,HCC,outcome,main,Patient Register,10,C22.0,,M11
+37,MALO,2026-11-18,Liver transplantation,See liver_transplant code list,outcome,main,Patient Register,reference,liver_transplant,,M5
+38,MALO,2026-11-18,Liver-related death,See liver_related_death code list,outcome,main,Cause of Death Register,reference,liver_related_death,,M6
