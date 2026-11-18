@@ -1,0 +1,8 @@
+id,definition,version,component,subcomponent,role,variant,register,icd_version,code_or_range,label,note_ids
+1,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Status/complication code,outcome,main,Patient Register,9,V42H,liver transplant status,T1;T3
+2,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Status/complication code,outcome,main,Patient Register,10,Z94.4,liver transplant status,T1;T3
+3,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Status/complication code,outcome,main,Patient Register,10,T86.4,liver transplant failure and rejection,T1;T3
+4,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Procedure,outcome,main,Patient Register,procedure,5200,,T2
+5,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Procedure,outcome,main,Patient Register,procedure,JJC,,T2
+6,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Procedure,outcome,main,Patient Register,procedure,DJ005,,T2
+7,LIVER_TRANSPLANT,2026-11-18,Liver transplantation,Procedure,outcome,main,Patient Register,procedure,DJ006,,T2

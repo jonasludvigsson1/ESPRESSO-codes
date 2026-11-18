@@ -1,0 +1,14 @@
+note_id,type,text
+M0,source,"Definition agreed in discussion with Juan Vaz and Fahim Ebrahimi, 2026-11-18."
+M1,source,Compared with Yao et al (PMID 40093397): compensated and decompensated cirrhosis are separate events; non-bleeding varices count as compensated cirrhosis; liver failure and portal hypertension are no longer part of decompensation (portal hypertension is now under compensated cirrhosis).
+M2,source,"ICD-7 (462,10) and ICD-8 (456,00) have a single code for esophageal varices without a distinction between bleeding and non-bleeding, so bleeding cannot be separated before ICD-9. These codes are counted as non-bleeding."
+M3,source,No specific ICD-7 code exists for portal hypertension.
+M4,source,There is no specific code for hepatorenal syndrome in ICD-7 or ICD-8.
+M5,source,Liver transplantation: see the separate liver_transplant code list.
+M6,source,Liver-related death: see the separate liver_related_death code list. Any of the codes in components 1-4 also count when listed as underlying cause of death. Only the underlying cause of death counts.
+M7,curator,"ICD-8 ascites is 785,30 (the source document wrote 785,3; corrected 2026-11-18 on the code-owner's instruction)."
+M8,curator,"ICD-8 571,9 is listed in the source under both cirrhosis and portal hypertension. It is one code; it is kept under both components, so a hit counts as compensated cirrhosis either way."
+M9,curator,"ICD-10 K74 is given as a whole category in the source and therefore also contains K74.0-K74.2 (fibrosis), K74.3 (primary biliary cirrhosis, which does not imply cirrhosis), K74.4, K74.5 and K74.6. K74.5 and K74.6 are also listed separately in the source, which is redundant. Decide whether the full K74 is intended."
+M10,curator,"ICD-10 K72 (hepatic encephalopathy codes K72.1 and K72.9) is also the liver failure code, so counting encephalopathy by K72 captures liver failure as well. K72.0 is not listed in the source."
+M11,curator,The source does not state the register for components 1-4; the Patient Register is assumed. Liver-related death uses the Cause of Death Register.
+M12,curator,"ICD-9 155A is the Swedish format used in the Patient Register. The Cause of Death Register uses the international ICD-9 (155.0, most often recorded as 1550). See the liver_related_death code list."
