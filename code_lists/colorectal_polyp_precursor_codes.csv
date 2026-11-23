@@ -1,0 +1,11 @@
+id,definition,version,component,subcomponent,role,variant,register,coding_system,code_or_range,label,note_ids
+1,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Normal mucosa,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M00100,NORMAL MAKR MORF,N0;N5
+2,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Normal mucosa,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M00110,NORMAL MIKR MORF,
+3,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Tubular adenoma,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M82100,ADENOM TUBULÄRT (ADENOMATÖS POLYP),
+4,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Tubulovillous adenoma,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M82630,ADENOM TUBULOVILLÖST,
+5,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Villous adenoma,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M82611,ADENOM VILLÖST,
+6,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Hyperplastic polyp,,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M72040,HYPERPLASI POLYPOID,
+7,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Sessile serrated polyp,Morphology code,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M82160,,N4;N6
+8,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Sessile serrated polyp,Morphology code,classification,main,ESPRESSO histopathology (SNOMED morphology),SNOMED,M82130,,N1;N4;N6
+9,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Sessile serrated polyp,Morphology code,classification,conditional,ESPRESSO histopathology (SNOMED morphology),SNOMED,M72041,,N2;N4
+10,COLORECTAL_POLYP_PRECURSORS,2026-11-23,Sessile serrated polyp,Free text,classification,main,ESPRESSO histopathology (report free text),free text,gtand[ad],,N3

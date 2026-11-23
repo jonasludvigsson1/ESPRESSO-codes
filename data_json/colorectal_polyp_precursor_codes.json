@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "title": "Colorectal polyp precursor classification in ESPRESSO",
+    "source": "ESPRESSO Study; Polyp_ESPRSSO_23Nov_2026.xlsx",
+    "version": "2026-11-23",
+    "last_updated": "2026-11-23",
+    "description": "SNOMED morphology codes and free-text term used to classify colorectal polyps (normal mucosa, tubular, tubulovillous and villous adenoma, hyperplastic polyp, sessile serrated polyp).",
+    "used_in": [
+      "Colorectal cancer precursor studies in ESPRESSO"
+    ],
+    "columns": {
+      "component": "Histological subtype",
+      "subcomponent": "Sub-group within the subtype (may be empty)",
+      "role": "classification",
+      "variant": "main | conditional (only valid under the condition given in the notes)",
+      "register": "Data source in which the code or term is searched",
+      "coding_system": "SNOMED (Swedish SNOMED morphology, M codes) | free text",
+      "code_or_range": "Code or search term as written in the source",
+      "label": "Short description from the Swedish SNOMED list, where available",
+      "note_ids": "Semicolon-separated ids of entries in \"notes\" (type \"source\" = comment in the source document; \"curator\" = added during curation)"
+    }
+  },
+  "codes": [
+    {
+      "id": 1,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Normal mucosa",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M00100",
+      "label": "NORMAL MAKR MORF",
+      "note_ids": "N0;N5"
+    },
+    {
+      "id": 2,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Normal mucosa",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M00110",
+      "label": "NORMAL MIKR MORF",
+      "note_ids": ""
+    },
+    {
+      "id": 3,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Tubular adenoma",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M82100",
+      "label": "ADENOM TUBULÄRT (ADENOMATÖS POLYP)",
+      "note_ids": ""
+    },
+    {
+      "id": 4,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Tubulovillous adenoma",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M82630",
+      "label": "ADENOM TUBULOVILLÖST",
+      "note_ids": ""
+    },
+    {
+      "id": 5,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Villous adenoma",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M82611",
+      "label": "ADENOM VILLÖST",
+      "note_ids": ""
+    },
+    {
+      "id": 6,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Hyperplastic polyp",
+      "subcomponent": "",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M72040",
+      "label": "HYPERPLASI POLYPOID",
+      "note_ids": ""
+    },
+    {
+      "id": 7,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Sessile serrated polyp",
+      "subcomponent": "Morphology code",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M82160",
+      "label": "",
+      "note_ids": "N4;N6"
+    },
+    {
+      "id": 8,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Sessile serrated polyp",
+      "subcomponent": "Morphology code",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M82130",
+      "label": "",
+      "note_ids": "N1;N4;N6"
+    },
+    {
+      "id": 9,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Sessile serrated polyp",
+      "subcomponent": "Morphology code",
+      "role": "classification",
+      "variant": "conditional",
+      "register": "ESPRESSO histopathology (SNOMED morphology)",
+      "coding_system": "SNOMED",
+      "code_or_range": "M72041",
+      "label": "",
+      "note_ids": "N2;N4"
+    },
+    {
+      "id": 10,
+      "definition": "COLORECTAL_POLYP_PRECURSORS",
+      "version": "2026-11-23",
+      "component": "Sessile serrated polyp",
+      "subcomponent": "Free text",
+      "role": "classification",
+      "variant": "main",
+      "register": "ESPRESSO histopathology (report free text)",
+      "coding_system": "free text",
+      "code_or_range": "gtand[ad]",
+      "label": "",
+      "note_ids": "N3"
+    }
+  ],
+  "notes": [
+    {
+      "note_id": "N0",
+      "type": "source",
+      "text": "Table \"Polyp Classification in ESPRESSO\" (histological subtype, SNOMED M code, free text), version of 2026-11-23."
+    },
+    {
+      "note_id": "N1",
+      "type": "source",
+      "text": "M82130 may capture traditional serrated adenoma for a small group of people."
+    },
+    {
+      "note_id": "N2",
+      "type": "source",
+      "text": "M72041 is used only if the code has been reported from Medilab."
+    },
+    {
+      "note_id": "N3",
+      "type": "curator",
+      "text": "The free-text term is given exactly as in the source. It is probably a word stem for the Swedish \"sågtandad\" (serrated), and the brackets [ad] probably denote alternative word endings; confirm the exact search pattern before use."
+    },
+    {
+      "note_id": "N4",
+      "type": "curator",
+      "text": "Labels come from the Swedish SNOMED list (SymPathy, 2007). M82160, M82130 and M72041 are not in that list, so no label is given."
+    },
+    {
+      "note_id": "N5",
+      "type": "curator",
+      "text": "The source does not state a topography. Earlier ESPRESSO serrated-polyp analyses combined these morphology codes with colon and rectum (T67-T68); confirm for each study."
+    },
+    {
+      "note_id": "N6",
+      "type": "curator",
+      "text": "An earlier annotated version (2026-11-18) described M82160 as traditional serrated adenoma in one IBD dysplasia study, whereas this table lists M82160 under sessile serrated polyp and flags M82130 as possibly capturing traditional serrated adenoma. Decide the intended meaning of each code before use."
+    }
+  ]
+}
