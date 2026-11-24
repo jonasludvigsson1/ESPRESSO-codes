@@ -381,5 +381,12 @@
       "specificity": "standard",
       "comment": "Also consider excluding G45 (TIA)."
     }
+  ],
+  "notes": [
+    {
+      "note_id": "M0",
+      "type": "source",
+      "text": "Definition based on discussion with Johan Sundström, 2026-10-13."
+    }
   ]
 }
